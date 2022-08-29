@@ -11,6 +11,7 @@
 		BCD4143428BCC2D200B8B907 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD4143328BCC2D200B8B907 /* ContentView.swift */; };
 		BCD4143628BCC2D500B8B907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD4143528BCC2D500B8B907 /* Assets.xcassets */; };
 		BCD4143928BCC2D500B8B907 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD4143828BCC2D500B8B907 /* Preview Assets.xcassets */; };
+		BCD4144228BCC32900B8B907 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCD4144028BCC32900B8B907 /* Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		BCD4143328BCC2D200B8B907 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCD4143528BCC2D500B8B907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCD4143828BCC2D500B8B907 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCD4143F28BCC32900B8B907 /* C++inSwiftUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "C++inSwiftUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCD4144028BCC32900B8B907 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		BCD4144128BCC32900B8B907 /* Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,9 @@
 				BCD4143328BCC2D200B8B907 /* ContentView.swift */,
 				BCD4143528BCC2D500B8B907 /* Assets.xcassets */,
 				BCD4143728BCC2D500B8B907 /* Preview Content */,
+				BCD4144028BCC32900B8B907 /* Main.cpp */,
+				BCD4144128BCC32900B8B907 /* Main.h */,
+				BCD4143F28BCC32900B8B907 /* C++inSwiftUI-Bridging-Header.h */,
 			);
 			path = "C++inSwiftUI";
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				TargetAttributes = {
 					BCD4142D28BCC2D200B8B907 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -137,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD4144228BCC32900B8B907 /* Main.cpp in Sources */,
 				BCD4143428BCC2D200B8B907 /* ContentView.swift in Sources */,
 				BCD4143228BCC2D200B8B907 /* C__inSwiftUIApp.swift in Sources */,
 			);
@@ -264,6 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"C++inSwiftUI/Preview Content\"";
@@ -283,6 +293,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "developerdanx.C--inSwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "C++inSwiftUI/C++inSwiftUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"C++inSwiftUI/Preview Content\"";
@@ -312,6 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "developerdanx.C--inSwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "C++inSwiftUI/C++inSwiftUI-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
